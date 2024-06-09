@@ -5,10 +5,10 @@ import Button from './Button';
 
 const Navbar = () => {
   return (
-    <nav className='border-2 border-red-500 flexBetween max-container padding-container relative z-30 py-5'>
+    <nav className='border-2 border-red-500 flexBetween max-container padding-container z-30 py-5 bg-gray-900 sticky top-0'>
       <Link href='/'>
         <Image
-          src='/stelko-logo.png'
+          src='/stelko.png'
           alt='Stelko Construction Logo'
           width={150}
           height={80}
@@ -20,7 +20,7 @@ const Navbar = () => {
             <Link
               href={link.href}
               key={link.key}
-              className='regular-16 text-gray-90 curor-pointer pb-1.5 transition-all hover:font-bold'
+              className='regular-16 text-white curor-pointer pb-1.5 transition-all hover:font-bold'
             >
               {link.label}
             </Link>
