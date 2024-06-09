@@ -41,7 +41,7 @@ const About = () => {
             </div>
           ))}
         </div>
-        <div className='mt-12 flex justify-center border-2 border-red-400'>
+        <div className='mt-12 flex justify-center'>
           <div className='flex items-center space-x-6'>
             <div className='w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex items-center justify-center'>
               <Image

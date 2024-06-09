@@ -12,12 +12,12 @@ const Hero = () => {
           <p className='text-2xl text-gray-300 mb-10 max-w-3xl mx-auto'>
             Proudly transforming Hershey and Beyond's landscape since 2024.
           </p>
-          <div className='border-2 border-red-500 flex justify-center'>
+          <div className='flex justify-center'>
             <Link href='/gallery'>
               <Button
                 type='button'
                 title='View Our Projects'
-                icon='./mail.svg'
+                icon='./album.svg'
                 variant='btn_yellow'
               />
             </Link>
